@@ -1,0 +1,13 @@
+For our project we will be creating a program that will track a restaurants inventory.
+
+The overall project will track ingredient usage over the course of a week to update the database with the quantity of items used. 
+
+We will be using SQL Database as our Database Language to store menu items with the exact ingredients per menu item as well as a cost for each menu item and ingredient item. There will be a daily count that will tally up for a full weeks’ worth of inventory so the company can order the right amount for the upcoming week.
+
+There will also be a separate section to tack the expiration date of each item and a place to for food thrown out.
+
+We will be using Python as our Programming Language to make our calculations to update the database, alarm us went certain inventory items are low enough or out. We are going to attach a part for the customer to be able to access the updated inventory at any time. The ordering system will implement the menu item into python which will adjust the database item.
+
+Our project communications platform is:  Discord
+
+Out management platform is:  Trello
