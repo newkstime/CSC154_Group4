@@ -1,0 +1,9 @@
+non-functional req
+- The system should be available from 9 a.m. to 5 pm Monday to Friday.
+-The system should be able to hold 100,000 customer records initially.
+-The system should be able to add 10,000 records a year for 10 years.
+-A record should be fully available on the system for at least seven years.
+
+Business Requirement
+-The overall project will track ingredient usage over the course of a week to update the database with the quantity of items used. 
+-There will also be a separate section to tack the expiration date of each item and a place to for food thrown out.
