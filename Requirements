@@ -1,9 +1,32 @@
 non-functional req
-- The system should be available from 9 a.m. to 5 pm Monday to Friday.
--The system should be able to hold 100,000 customer records initially.
+- The system should be available from 9 a.m. to 11 pm Monday to Friday.
+-The system should be able to hold 10,000 item records initially.
 -The system should be able to add 10,000 records a year for 10 years.
 -A record should be fully available on the system for at least seven years.
+- The system should deconflict simultaneous updates from two different input sources
 
 Business Requirement
 -The overall project will track ingredient usage over the course of a week to update the database with the quantity of items used. 
 -There will also be a separate section to tack the expiration date of each item and a place to for food thrown out.
+- Inventory must be updated in real time when an order is placed.
+- Compare previous week-to-week inventory to create an average ordering trend.
+- Compare the past average orders to the expected upcoming order.
+- Allow user to increase or decrease inventory count based on random holidays or events that are outliers.
+
+User Requirement 
+The user will be able to store menu items with the exact ingredients and cost for each menu item
+The user will be able to add, modify, or delete daily count for a full weeks’ worth of inventory.
+The user will be able to track the expiration date of each item and a place for food thrown out.
+The user will be able to track the average amount an item is order over a week, month, and year 
+The user will receive alarm when certain inventory items are low enough or out.
+Incoming inventory will show an ordered on date with an amount
+Orders from the front of the house will print an order ticket to the kitchen with a timestamp  # not sure we need this #
+Separate user permissions for managers vs servers or cooks
+
+Functional requirements:
+-Using database to store menu items with ingredients and cost for each menu item as well as cost for each inventoery item.
+-Using a separate section to track the expiration date of each item.
+-Make calculations using python to update the database with number of items and alarm the user when certain inventory items are low enough or out.
+-Using python to create an average amount of ingredients used per week, month, and year.
+-Integrate with third party API/EPIs for market cost of ingredients
+- Separate logins to the app with different level permissions
