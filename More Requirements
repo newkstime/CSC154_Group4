@@ -1,30 +1,39 @@
 Detailed Requirements
+
 Functionality:
 •	Select menu item.
 •	Select item substitution. (if customer wants)
 •	Subtract ingredient items from database.
 •	Add menu item to database for ordering trends
-•	
+	
 Usability:
 •	User will need to login using given username and password.
-•	Home page will have choices with links to check – running inventory, ordering trends, profit margins, edit database manually (with cost and number of items).
+•	Home page will have choices with links to check – running inventory, ordering trends, profit margins, 
+edit database manually (with cost and number of items).
 •	If editing database there will be a ‘Apply’ button or ‘Confirm’ button to confirm the changes made.
+
 Reliability:
 •	System will be open to use any time from 8 a.m. to 11 p.m.
 •	System will automatically log off after 5 minutes of no interaction.
-•	
+	
 Performance:
 •	System should startup within 30 seconds
 •	When menu items are ordered, database should be updated within 5 minutes
 •	When database manually updated 
 •	Allocate 2 GB of memory to store database
+
 Supportability:
 •	
+
 Design constraints:
 •	Program runs on Windows 7, 8, and 10 or MacBook and iMac Core Duo computers using HTML/JavaScript, Python and SQL Database
+
 Implementation requirements:
+
 Interface requirements:
-•	Will use an ordering system such as Aloha or Digital Dinning to pass menu items ordered to our program for calculations and automatic database updates
+•	Will use an ordering system such as Aloha or Digital Dinning to pass menu items ordered to our program for 
+calculations and automatic database updates
+
 Physical requirements:
 •	Customer will provide own hardware.
 
@@ -32,7 +41,21 @@ Physical requirements:
 
 Examples 
 Manager:
-Sits down at office computer and uses the mouse to double click to start the program, it loads up to the login page. The manager puts in there given username and password. After less than a minute the home page loads. The manager decides they want to check yesterday’s inventory used and compare it to the same day the week before. They click the tab labeled ‘Inventory History’ which takes them to a new window with multiple dropdown list where they can choose the year, month, week and day. The manager picks a day, then on the home page repeats the process to pull up another day to compare. Then the manager decides they need to change the cost of some of the ingredients because their suppliers increased the cost. On the home page they click the tab labeled ‘manual inventory update’ which will open a separate window with a list of categories of the inventory as well as a search box. The manager knows which items they have to change so they type the item in the search box which will show the item with all the associated information in an edit mode. They change the cost and then at the bottom and the top of the page there is a ‘Submit’ button that will confirm the change.
+Sits down at office computer and uses the mouse to double click to start the program, it loads up to the login page. 
+The manager puts in there given username and password. After less than a minute the home page loads. 
+The manager decides they want to check yesterday’s inventory used and compare it to the same day the week before. 
+They click the tab labeled ‘Inventory History’ which takes them to a new window with multiple dropdown list where 
+they can choose the year, month, week and day. The manager picks a day, then on the home page repeats the process to 
+pull up another day to compare. Then the manager decides they need to change the cost of some of the ingredients because 
+their suppliers increased the cost. On the home page they click the tab labeled ‘manual inventory update’ which will open 
+a separate window with a list of categories of the inventory as well as a search box. The manager knows which items they 
+have to change so they type the item in the search box which will show the item with all the associated information in an edit mode. 
+They change the cost and then at the bottom and the top of the page there is a ‘Submit’ button that will confirm the change.
 
 Front of house staff (bartenders, server, hostess):
- A couple come in to the restaurant and are greeted and sat by the hostess. The server introduces themselves and gives them water. The customers have very complicated orders. The server writes it down and then proceeds to put order in using company supplied ordering system that has all the modification buttons for the complicated customer orders. The ordering system automatically routes the information to the kitchen ticket printer and also to the inventory tracker. The inventory tracker will then make the calculation to update the database with amount of ingredients required for that menu item, also taking into account the modifications.
+ A couple come in to the restaurant and are greeted and sat by the hostess. 
+ The server introduces themselves and gives them water. The customers have very complicated orders. 
+ The server writes it down and then proceeds to put order in using company supplied ordering system that has all 
+ the modification buttons for the complicated customer orders. The ordering system automatically routes the information 
+ to the kitchen ticket printer and also to the inventory tracker. The inventory tracker will then make the calculation to 
+ update the database with amount of ingredients required for that menu item, also taking into account the modifications.
